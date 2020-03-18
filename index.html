@@ -7,30 +7,30 @@
   <meta http-equiv="Cache-Control" content="no-transform" />
   <meta http-equiv="Cache-Control" content="no-siteapp" />
   <meta name="applicable-device" content="pc,mobile">
-  <meta name="keywords" content="运维,运维博客,运维开发,ops,sre,linux,devops,python,django,nginx" />
-  <meta name="description" content="追求技术的道路上，我从不曾停下脚步" />
-  <link rel="stylesheet" href="nav.css" type="text/css" />
-  <link rel="shortcut icon" href="https://avatars2.githubusercontent.com/u/20941518" />
+  <meta name="keywords" content="PHP,Python,Linux,mysql,Redis,后端,IT" />
+  <meta name="description" content="技术分享，使用技巧分享，踩坑分享" />
+  <link rel="stylesheet" href="css/nav.min.css" type="text/css" />
+  <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/barryzpc/pic-repo/my-blog/img/barry.png" />
 
   <!-- Begin SEO tag -->
   <title>浩天说导航</title>
   <meta property="og:locale" content="zh_CN" />
   <meta property="og:site_name" content="浩天说导航" />
-  <meta property="og:url" content="http://myblog.zhengpc.com//" />
+  <meta property="og:url" content="https://nav.zhengpc.com/" />
   <meta property="og:title" content="浩天说导航" />
-  <meta property="og:description" content="追求技术的道路上，我从不曾停下脚步" />
-  <link rel="canonical" href="http://myblog.zhengpc.com//" />
+  <meta property="og:description" content="技术分享，使用技巧分享，踩坑分享" />
+  <link rel="canonical" href="https://nav.zhengpc.com/" />
   <!-- End SEO tag -->
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158772988-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+<!--  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158772988-1"></script>-->
+<!--  <script>-->
+<!--    window.dataLayer = window.dataLayer || [];-->
+<!--    function gtag() { dataLayer.push(arguments); }-->
+<!--    gtag('js', new Date());-->
 
-    gtag('config', 'UA-158772988-1');
-  </script>
+<!--    gtag('config', 'UA-158772988-1');-->
+<!--  </script>-->
 </head>
 
 <body data-rsssl=1>
@@ -39,10 +39,11 @@
       <a class="site" href="/">浩天说导航</a>
       <nav class="header-menu">
         <ul>
-          <li class="current-menu-item"><a href="/">常用</a></li>
+          <li class="current-menu-item"><a href="/">首页</a></li>
+          <li class=""><a href="/common.html">常用</a></li>
           <li class=""><a href="/develop.html">开发</a></li>
           <li class=""><a href="/tools.html">工具</a></li>
-          <li class=""><a href="http://myblog.zhengpc.com/" target="_blank">博客</a></li>
+          <li class=""><a href="http://myblog.zhengpc.com" target="_blank">博客</a></li>
         </ul>
       </nav>
     </div>
@@ -52,25 +53,37 @@
   <div id="content-wrapper">
     <div class="container">
 
+      <section class="sousuo">
+        <div class="search">
+          <div class="search-box">
+            <img class="search-icon" src="">
+            <input type="text" id="txt" class="search-input" placeholder="点击左侧图标可切换搜索引擎；按回车搜索">
+            <button class="search-btn" id="search-btn"><img
+                src="images/sou0.png"></button>
+          </div>
+          <!-- 搜索引擎 -->
+          <div class="search-engine" style="display: none;">
+            <ul class="search-engine-list"></ul>
+          </div>
+        </div>
+      </section>
+
       <div class="nav-cell clearfix">
-        <h2>🔥 常用网站
-          <!-- <a class="more" href="">更多</a> -->
-        </h2>
         <ul class="nav-list">
           <li>
-            <a class="nav-item clearfix" href="https://redhub.cn/" target="_blank">
+            <a class="nav-item clearfix" href="https://www.yicai.com/" target="_blank">
               <div class="nav-img"
-                style="margin-bottom:40px;background-image: url(https://blz.nosdn.127.net/sre/images/icon/rhub.png);">
+                style="margin-bottom:40px;background-image: url(images/rhub.png);">
               </div>
-              <div class="nav-name">RedHub</div>
-              <p>新闻聚合平台</p>
+              <div class="nav-name">第一财经</div>
+              <p>专注创造价值的新闻网站</p>
             </a>
           </li>
 
           <li>
             <a class="nav-item clearfix" href="https://www.zhihu.com/" target="_blank">
               <div class="nav-img"
-                style="margin-bottom:40px;background-image: url(https://blz.nosdn.127.net/sre/images/icon/zhih.png);">
+                style="margin-bottom:40px;background-image: url(images/zhih.png);">
               </div>
               <div class="nav-name">知乎</div>
               <p>知名问答社区</p>
@@ -80,7 +93,7 @@
           <li>
             <a class="nav-item clearfix" href="https://www.weibo.com/" target="_blank">
               <div class="nav-img"
-                style="margin-bottom:40px;background-image: url(https://blz.nosdn.127.net/sre/images/icon/weib.png);">
+                style="margin-bottom:40px;background-image: url(images/weib.png);">
               </div>
               <div class="nav-name">微博</div>
               <p>微博社交平台</p>
@@ -90,7 +103,7 @@
           <li>
             <a class="nav-item clearfix" href="https://www.douban.com/" target="_blank">
               <div class="nav-img"
-                style="margin-bottom:40px;background-image: url(https://blz.nosdn.127.net/sre/images/icon/doub.png);">
+                style="margin-bottom:40px;background-image: url(images/doub.png);">
               </div>
               <div class="nav-name">豆瓣</div>
               <p>文艺社区，看书评、影评</p>
@@ -100,7 +113,7 @@
           <li>
             <a class="nav-item clearfix" href="https://www.taobao.com/" target="_blank">
               <div class="nav-img"
-                style="margin-bottom:40px;background-image: url(https://blz.nosdn.127.net/sre/images/icon/tb38.png);">
+                style="margin-bottom:40px;background-image: url(images/tb38.png);">
               </div>
               <div class="nav-name">淘宝</div>
               <p>电商平台</p>
@@ -110,7 +123,7 @@
           <li>
             <a class="nav-item clearfix" href="https://www.jd.com/" target="_blank">
               <div class="nav-img"
-                style="margin-bottom:40px;background-image: url(https://blz.nosdn.127.net/sre/images/icon/jd37.png);">
+                style="margin-bottom:40px;background-image: url(images/jd37.png);">
               </div>
               <div class="nav-name">京东</div>
               <p>电商平台</p>
@@ -120,7 +133,7 @@
           <li>
             <a class="nav-item clearfix" href="https://music.163.com/" target="_blank">
               <div class="nav-img"
-                style="margin-bottom:40px;background-image: url(https://blz.nosdn.127.net/sre/images/icon/m163.png);">
+                style="margin-bottom:40px;background-image: url(images/m163.png);">
               </div>
               <div class="nav-name">网易云音乐</div>
               <p>音乐社区，不止是播放器</p>
@@ -128,233 +141,54 @@
           </li>
 
           <li>
+            <a class="nav-item clearfix" href="https://douban.fm/" target="_blank">
+              <div class="nav-img"
+                style="margin-bottom:40px;background-image: url(images/fm3m.png);">
+              </div>
+              <div class="nav-name">豆瓣FM</div>
+              <p>个性化音乐网站，根据喜好推荐音乐</p>
+            </a>
+          </li>
+
+          <li>
+            <a class="nav-item clearfix" href="http://www.iqiyi.com/" target="_blank">
+              <div class="nav-img"
+                style="margin-bottom:40px;background-image: url(images/qiyi.png);">
+              </div>
+              <div class="nav-name">爱奇艺</div>
+              <p>百度旗下视频网站</p>
+            </a>
+          </li>
+
+          <li>
+            <a class="nav-item clearfix" href="https://v.qq.com/" target="_blank">
+              <div class="nav-img"
+                style="margin-bottom:40px;background-image: url(images/qqtv.png);">
+              </div>
+              <div class="nav-name">腾讯视频</div>
+              <p>腾讯旗下视频网站</p>
+            </a>
+          </li>
+
+          <li>
+            <a class="nav-item clearfix" href="https://www.ixigua.com/" target="_blank">
+              <div class="nav-img"
+                style="margin-bottom:40px;background-image: url(images/xgtv.png);">
+              </div>
+              <div class="nav-name">西瓜视频</div>
+              <p>今日头条旗下视频网站</p>
+            </a>
+          </li>
+
+          <li>
             <a class="nav-item clearfix" href="https://www.bilibili.com/" target="_blank">
               <div class="nav-img"
-                style="margin-bottom:40px;background-image: url(https://blz.nosdn.127.net/sre/images/icon/bili.png);">
+                style="margin-bottom:40px;background-image: url(images/bili.png);">
               </div>
               <div class="nav-name">哔哩哔哩</div>
-              <p>二次元社区</p>
+              <p>二次元社区，学习网站</p>
             </a>
           </li>
-        </ul>
-      </div>
-
-
-
-      <div class="nav-cell clearfix">
-        <h2> 💎 科技媒体
-          <!-- <a class="more" href="">更多</a> -->
-        </h2>
-        <ul class="nav-list">
-
-          <li>
-            <a class="nav-item clearfix" href="https://36kr.com/" target="_blank">
-              <div class="nav-img"
-                style="margin-bottom:40px;background-image: url(https://blz.nosdn.127.net/sre/images/icon/36kr.png);">
-              </div>
-              <div class="nav-name">36氪</div>
-              <p>创业资讯、科技新闻</p>
-            </a>
-          </li>
-
-          <li>
-            <a class="nav-item clearfix" href="https://www.huxiu.com/" target="_blank">
-              <div class="nav-img"
-                style="margin-bottom:40px;background-image: url(https://blz.nosdn.127.net/sre/images/icon/hux7.png);">
-              </div>
-              <div class="nav-name">虎嗅</div>
-              <p></p>
-            </a>
-          </li>
-
-          <li>
-            <a class="nav-item clearfix" href="https://www.leiphone.com/" target="_blank">
-              <div class="nav-img"
-                style="margin-bottom:40px;background-image: url(https://blz.nosdn.127.net/sre/images/icon/8cae.png);">
-              </div>
-              <div class="nav-name">雷锋网</div>
-              <p>人工智能和智能硬件媒体</p>
-            </a>
-          </li>
-
-          <li>
-            <a class="nav-item clearfix" href="https://www.ifanr.com/" target="_blank">
-              <div class="nav-img"
-                style="margin-bottom:40px;background-image: url(https://blz.nosdn.127.net/sre/images/icon/ifan.png);">
-              </div>
-              <div class="nav-name">爱范儿</div>
-              <p></p>
-            </a>
-          </li>
-
-          <li>
-            <a class="nav-item clearfix" href="http://www.techweb.com.cn/" target="_blank">
-              <div class="nav-img"
-                style="margin-bottom:40px;background-image: url(https://blz.nosdn.127.net/sre/images/icon/61e6.png);">
-              </div>
-              <div class="nav-name">TechWeb</div>
-              <p></p>
-            </a>
-          </li>
-
-          <li>
-            <a class="nav-item clearfix" href="https://www.pingwest.com/" target="_blank">
-              <div class="nav-img"
-                style="margin-bottom:40px;background-image: url(https://blz.nosdn.127.net/sre/images/icon/pwst.png);">
-              </div>
-              <div class="nav-name">PingWest</div>
-              <p></p>
-            </a>
-          </li>
-
-          <li>
-            <a class="nav-item clearfix" href="http://www.geekpark.net/" target="_blank">
-              <div class="nav-img"
-                style="margin-bottom:40px;background-image: url(https://blz.nosdn.127.net/sre/images/icon/gads.png);">
-              </div>
-              <div class="nav-name">极客公园</div>
-              <p></p>
-            </a>
-          </li>
-
-          <li>
-            <a class="nav-item clearfix" href="https://www.zealer.com/" target="_blank">
-              <div class="nav-img"
-                style="margin-bottom:40px;background-image: url(https://blz.nosdn.127.net/sre/images/icon/zear.png);">
-              </div>
-              <div class="nav-name">ZEALER</div>
-              <p></p>
-            </a>
-          </li>
-
-          <li>
-            <a class="nav-item clearfix" href="http://www.qdaily.com/" target="_blank">
-              <div class="nav-img"
-                style="margin-bottom:40px;background-image: url(https://blz.nosdn.127.net/sre/images/icon/hqx4.png);">
-              </div>
-              <div class="nav-name">好奇心日报</div>
-              <p></p>
-            </a>
-          </li>
-
-          <li>
-            <a class="nav-item clearfix" href="https://xinquji.com/" target="_blank">
-              <div class="nav-img"
-                style="margin-bottom:40px;background-image: url(https://blz.nosdn.127.net/sre/images/icon/xinq.png);">
-              </div>
-              <div class="nav-name">新趣集</div>
-              <p>新产品发现社区</p>
-            </a>
-          </li>
-
-          <li>
-            <a class="nav-item clearfix" href="https://sspai.com/" target="_blank">
-              <div class="nav-img"
-                style="margin-bottom:40px;background-image: url(https://blz.nosdn.127.net/sre/images/icon/ssp8.png);">
-              </div>
-              <div class="nav-name">少数派</div>
-              <p>高品质数字消费指南</p>
-            </a>
-          </li>
-
-          <li>
-            <a class="nav-item clearfix" href="https://www.guokr.com/" target="_blank">
-              <div class="nav-img"
-                style="margin-bottom:40px;background-image: url(https://blz.nosdn.127.net/sre/images/icon/guk3.png);">
-              </div>
-              <div class="nav-name">果壳</div>
-              <p></p>
-            </a>
-          </li>
-
-          <li>
-            <a class="nav-item clearfix" href="https://www.infoq.cn/" target="_blank">
-              <div class="nav-img"
-                style="margin-bottom:40px;background-image: url(https://blz.nosdn.127.net/sre/images/icon/infq.png);">
-              </div>
-              <div class="nav-name">InfoQ</div>
-              <p>旨在促进软件开发领域知识与创新的传播</p>
-            </a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="nav-cell clearfix">
-        <h2> 🎪 趣站收藏
-          <!-- <a class="more" href="">更多</a> -->
-        </h2>
-        <ul class="nav-list">
-
-          <li>
-            <a class="nav-item clearfix" href="https://www.allhistory.com/" target="_blank">
-              <div class="nav-img"
-                style="margin-bottom:40px;background-image: url(https://blz.nosdn.127.net/sre/images/icon/ah12.png);">
-              </div>
-              <div class="nav-name">全历史</div>
-              <p>古今中外世界历史大观</p>
-            </a>
-          </li>
-
-          <li>
-            <a class="nav-item clearfix" href="https://www.ageeye.cn/" target="_blank">
-              <div class="nav-img"
-                style="margin-bottom:40px;background-image: url(https://blz.nosdn.127.net/sre/images/icon/fxcn.png);">
-              </div>
-              <div class="nav-name">发现中国</div>
-              <p>描绘不同时期的中国是什么样子的</p>
-            </a>
-          </li>
-
-          <li>
-            <a class="nav-item clearfix" href="https://www.dpm.org.cn/" target="_blank">
-              <div class="nav-img"
-                style="margin-bottom:40px;background-image: url(https://blz.nosdn.127.net/sre/images/icon/g7s5.png);">
-              </div>
-              <div class="nav-name">故宫博物院</div>
-              <p>在线游览故宫</p>
-            </a>
-          </li>
-
-          <li>
-            <a class="nav-item clearfix" href="http://www.cbaigui.com/" target="_blank">
-              <div class="nav-img"
-                style="margin-bottom:40px;background-image: url(https://blz.nosdn.127.net/sre/images/icon/cofe.png);">
-              </div>
-              <div class="nav-name">中国妖怪百集</div>
-              <p>最全收录中国古今妖怪</p>
-            </a>
-          </li>
-
-          <li>
-            <a class="nav-item clearfix" href="http://www.lvyun188.com/" target="_blank">
-              <div class="nav-img"
-                style="margin-bottom:40px;background-image: url(https://blz.nosdn.127.net/sre/images/icon/lyun.png);">
-              </div>
-              <div class="nav-name">韵律古诗词</div>
-              <p>网站收录了大量的中国古诗词，歇后语，谚语，古文</p>
-            </a>
-          </li>
-
-          <li>
-            <a class="nav-item clearfix" href="https://new.shuge.org/" target="_blank">
-              <div class="nav-img"
-                style="margin-bottom:40px;background-image: url(https://blz.nosdn.127.net/sre/images/icon/sge3.png);">
-              </div>
-              <div class="nav-name">书格</div>
-              <p>一个自由开发的在线古籍图书馆，收藏了大量有价值的古书</p>
-            </a>
-          </li>
-
-          <li>
-            <a class="nav-item clearfix" href="https://www.cdstm.cn/" target="_blank">
-              <div class="nav-img"
-                style="margin-bottom:40px;background-image: url(https://blz.nosdn.127.net/sre/images/icon/szkj.png);">
-              </div>
-              <div class="nav-name">中国数字科技馆</div>
-              <p>了解科学动态，体验科学过程，增长科学知识</p>
-            </a>
-          </li>
-
         </ul>
       </div>
     </div>
@@ -363,7 +197,7 @@
   <!-- footer -->
   <footer class="footer">
     <div class="container clearfix">
-      <div class="copy"> © 2020 <a href="http://myblog.zhengpc.com/" target="_blank">浩天说</a></div>
+      <div class="copy"> © 2020 <a href="http://myblog.zhengpc.com" target="_blank">浩天说</a> | Powered by <a href="https://ops-coffee.cn" target="_blank">ops-coffee</a></div>
 
       <div class="link">
         <a href="/" target="_blank">关于本站</a>
@@ -371,6 +205,8 @@
       </div>
     </div>
   </footer>
+
+  <script src="js/nav.min.js"></script>
 </body>
 
 </html>
